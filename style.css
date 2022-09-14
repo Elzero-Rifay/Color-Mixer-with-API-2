@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  background-color: lightgray;
+  height: 82px;
+}
+
+.inputs {
+  display: inline-block;
+  padding: 21px 17px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#red {
+  accent-color: red;
+}
+
+#green {
+  accent-color: green;
+}
+
+#blue {
+  accent-color: blue;
+}
+
+#blue,#green,#red :hover {
+  cursor: pointer;
+}
+
+
+
+#resultInHexa {
+  position: relative;
+  left: 426px;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: inline-block;
+  position: relative;
+  left: 451px;
+  padding: 0px 4px;
+  font-size: 19px;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 31px;
+}
